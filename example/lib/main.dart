@@ -24,6 +24,7 @@ class _MyAppState extends State<MyApp> {
         ),
         body: CircularMenu(
           alignment: Alignment.bottomCenter,
+          toggleButtonIconData: Icons.menu,
           backgroundWidget: Center(
             child: RichText(
               text: TextSpan(

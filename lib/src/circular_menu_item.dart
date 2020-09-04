@@ -55,7 +55,7 @@ class CircularMenuItem extends StatelessWidget {
                   ? Icon(
                       icon,
                       size: iconSize,
-                      color: iconColor ?? Colors.white,
+                      color: iconColor,
                     )
                   : animatedIcon,
             ),
