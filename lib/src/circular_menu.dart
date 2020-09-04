@@ -37,7 +37,7 @@ class CircularMenu extends StatefulWidget {
   final double toggleButtonPadding;
   final double toggleButtonMargin;
   final Color toggleButtonIconColor;
-  final IconData toggleButtonIconData;
+  final Icon toggleButtonIconData;
 
   /// staring angle in clockwise radian
   final double startingAngleInRadian;

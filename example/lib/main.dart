@@ -24,7 +24,7 @@ class _MyAppState extends State<MyApp> {
         ),
         body: CircularMenu(
           alignment: Alignment.bottomCenter,
-          toggleButtonIconData: Icons.menu,
+          toggleButtonIconData: Icon(Icons.menu),
           backgroundWidget: Center(
             child: RichText(
               text: TextSpan(
@@ -43,7 +43,7 @@ class _MyAppState extends State<MyApp> {
           toggleButtonColor: Colors.pink,
           items: [
             CircularMenuItem(
-                icon: Icons.home,
+                icon: Icon(Icons.home),
                 color: Colors.green,
                 onTap: () {
                   setState(() {
@@ -52,7 +52,7 @@ class _MyAppState extends State<MyApp> {
                   });
                 }),
             CircularMenuItem(
-                icon: Icons.search,
+                icon: Icon(Icons.search),
                 color: Colors.blue,
                 onTap: () {
                   setState(() {
@@ -61,7 +61,7 @@ class _MyAppState extends State<MyApp> {
                   });
                 }),
             CircularMenuItem(
-                icon: Icons.settings,
+                icon: Icon(Icons.settings),
                 color: Colors.orange,
                 onTap: () {
                   setState(() {
@@ -70,7 +70,7 @@ class _MyAppState extends State<MyApp> {
                   });
                 }),
             CircularMenuItem(
-                icon: Icons.chat,
+                icon: Icon(Icons.chat),
                 color: Colors.purple,
                 onTap: () {
                   setState(() {
@@ -79,7 +79,7 @@ class _MyAppState extends State<MyApp> {
                   });
                 }),
             CircularMenuItem(
-                icon: Icons.notifications,
+                icon: Icon(Icons.notifications),
                 color: Colors.brown,
                 onTap: () {
                   setState(() {
